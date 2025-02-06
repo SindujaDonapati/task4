@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+        }
+        .header{
+            background-color: rgb(202, 179, 224);
+            font-size: larger;
+            /* color: white; */
+            
+        }
+        .header:hover{
+            color: white;
+        }
+
+
+
+
+    table,tr,td{
+      border:2px solid black;
+      border-collapse:collapse;
+    }
+    td{
+      height:60px;
+      width:60px;
+    }
+
+tr:nth-child(even) td:nth-child(odd), tr:nth-child(odd) td:nth-child(even){
+  background-color: rgba(105, 55, 55, 0.415);
+  color:wite;
+}
+
+.row1,.row2,.row4,.row5{
+  font-size:60px;
+
+}
+
+.row1 td:hover,.row5 td:hover{
+   width: 30px;
+}
+:root{
+  --red:red;
+}
+.row1 td:hover,.row2 td:hover,.row4 td:hover,.row5 td:hover {
+  
+  /* font-size: 70px; */
+  width:60px;
+
+
+  
+}
+
+.coin:hover{
+    color:rgb(59, 21, 21);
+    font-size:50px;
+   
+}
+
+.row1,.row2,.row4,.row5{
+  text-align: center;
+}
+
+
+
+  
+    </style>
+</head>
+<body>
+    <div>
+        
+        <nav class="header">
+            <a href="https://www.chess.com/play/online">>>Chess</a>
+            <a href="https://www.chesshouse.com/pages/chess-rules?srsltid=AfmBOop5LCKc10VO36usPc6FgQtsyghJ2OL76fFjH_NWQ7Z1wLv-d3ml">>>Chess-Rules</a>
+            <a href="https://en.wikipedia.org/wiki/History_of_chess">>>History_of_chess</a>
+            <a href="https://en.wikipedia.org/wiki/Gukesh_Dommaraju">>>Grandmaster</a>
+        </nav><br><br>
+
+    <table>
+        <tr class="row1">
+            <td class="coin">&#9814</td>
+            <td class="coin">&#9816</td>
+            <td class="coin">&#9815</td>
+            <td class="coin">&#9813</td>
+            <td class="coin">&#9812</td>
+            <td class="coin">&#9815</td>
+            <td class="coin">&#9816</td>
+            <td class="coin">&#9814</td>
+        </tr>
+        <tr class="row2">
+            <td  class="coin"class="coin">&#9817</td>
+            <td  class="coin"class="coin">&#9817</td>
+            <td  class="coin"class="coin">&#9817</td>
+            <td  class="coin"class="coin">&#9817</td>
+            <td  class="coin"class="coin">&#9817</td>
+            <td  class="coin"class="coin">&#9817</td>
+            <td  class="coin"class="coin">&#9817</td>
+            <td  class="coin"class="coin">&#9817</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="row4">
+            <td class="coin">&#9823</td>
+            <td class="coin">&#9823</td>
+            <td class="coin">&#9823</td>
+            <td class="coin">&#9823</td>
+            <td class="coin">&#9823</td>
+            <td class="coin">&#9823</td>
+            <td class="coin">&#9823</td>
+            <td class="coin">&#9823</td>
+        </tr>
+        <tr class="row5">
+            <td class="coin">&#9820</td>
+            <td class="coin">&#9822</td>
+            <td class="coin">&#9821</td>
+            <td class="coin">&#9819</td>
+            <td class="coin">&#9818</td>
+            <td class="coin">&#9821</td>
+            <td class="coin">&#9822</td>
+            <td class="coin">&#9820</td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
